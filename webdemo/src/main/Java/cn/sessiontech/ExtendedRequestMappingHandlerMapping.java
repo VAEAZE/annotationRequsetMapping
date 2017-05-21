@@ -23,8 +23,8 @@ public class ExtendedRequestMappingHandlerMapping extends RequestMappingHandlerM
         +handlerType.getName()+"oooooooo"+handlerType.toString()
         +handlerType.getClass().getName() +"oooooooo"+handlerType.getClass().toString()
         );*/
-        if ((handlerType.getClass().isAnnotationPresent(Api.class)
-        		&&  handlerType.getClass().getAnnotation(Api.class).isAutoConfig())
+        if ((handlerType.isAnnotationPresent(Api.class)
+        		&&  handlerType.getAnnotation(Api.class).isAutoConfig())
         		||method.getName().startsWith("test")) {
             info = createRequestMappingInfoByMethodName(method);
         }
