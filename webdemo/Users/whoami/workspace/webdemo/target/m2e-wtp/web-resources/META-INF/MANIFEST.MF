@@ -1,0 +1,12 @@
+Manifest-Version: 1.0
+Implementation-Title: webdemo Maven Webapp
+Implementation-Version: 0.0.1-SNAPSHOT
+Built-By: whoami
+Specification-Title: webdemo Maven Webapp
+Implementation-Vendor-Id: com.sessiontech
+Build-Time: 2017-05-21T04:45:52Z
+Build-Jdk: 1.8.0_112
+Specification-Version: 0.0.1-SNAPSHOT
+Created-By: Maven Integration for Eclipse
+SVN-Revision: v${buildNumber}
+
